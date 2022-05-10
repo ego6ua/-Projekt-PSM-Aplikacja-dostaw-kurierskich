@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.Chizaapp{
+  font-weight: 900;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.colorChiza{
+  color: rgb(239, 239, 3);
+}

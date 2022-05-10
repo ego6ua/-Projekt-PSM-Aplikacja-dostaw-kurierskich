@@ -11,15 +11,23 @@
 #myItem {
     border: solid 1px #999999;
     border-radius: 12px;
-    margin-block: 5px;
-
+    margin-block: 4px;
+    width: 100%;
+    
 }
 
 #imgInDiv {
+
 }
 
+#col_link{
+    padding-right: calc(var(--bs-gutter-x) * .2);
+    padding-left: calc(var(--bs-gutter-x) * .2);
+}
+ 
 
 #mainDiv {
+
     padding-block: 60px;
     padding-bottom: 20%;
 }

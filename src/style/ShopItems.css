@@ -30,6 +30,7 @@
 }
 
 #DivForItem {
+    margin-left: 0;
     text-align: left;
     margin-block: 25px;
     width: 100%;

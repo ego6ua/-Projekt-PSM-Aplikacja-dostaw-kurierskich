@@ -1,14 +1,12 @@
 #containerEdit {
     margin-block: 25px;
-    margin-bottom: 70ch;
 }
 
 #editRow {
     box-shadow: 1px 1px 2px 2px #999999;
-    border-radius: 10px;
+    border-radius: 1px;
     padding-block: 10px; 
     padding-inline: 20px;
-    margin-bottom: 15px;
 }
 
 .datasEdit { 
@@ -18,34 +16,54 @@
     padding-block: 10px;
 }
 
+.TitleEdit {
+    font-size: 20px;
+}
 
 #cancelEdit {
     background-color: #dd3a3a;
     color: black;
     padding: 5px;
-    margin: 12px 0;
     box-shadow: 0 1px 6px #ccc;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 15px;
     text-align: center;
     align-items: center;
     width: 200px;
-    margin-left: auto;
+    margin-left: auto; 
     margin-right: auto;
 }
 
-#confirmEdit {
-    margin-top: 50px;
+#confirmEdit { 
+    text-decoration: none;
+    margin-top: 25px;
     text-align: center;
     font-size: 30px;
     position: relative;
     background-color: #F6E71D;
     color: black;
     padding: 7px;
-    margin: 12px 0;
     box-shadow: 0 1px 6px #ccc;
-    border-radius: 10px;
-    width: 500px;
+    border-radius: 25px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#usunProduct{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 1px 6px #ccc;
+
+}
+
+#itemPro {
+    margin-block: 5px;
+    font-size: 16px;
+}
+
+.sumaEdit{
+    font-size: 19px;
+    font-weight: 600;
+    text-align: end;
 }

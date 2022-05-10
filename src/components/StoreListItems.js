@@ -9,14 +9,14 @@ const StoreListItems = ({ state, productVariable }) => {
 
   const storeList = array.map((item, num) => {
     return (
-      <Link to="/shopitems" onClick={() => productVariable(num)}>
-        <img className='col-6' id='myItem' alt='shop' src={item.img}></img >
+      <Link className='col-6' id='col_link' to="/shopitems" onClick={() => productVariable(num)}>
+        <img  id='myItem' alt='shop' src={item.img}></img >
       </Link>
     )
   })
   return (
     <div className='container' id='mainDiv'>
-      <div id='imgInDiv'>
+      <div className='row' id='imgInDiv'>
         {storeList}
       </div>
     </div>

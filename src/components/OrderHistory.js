@@ -1,5 +1,5 @@
 import React from 'react'
-import '../style/OrderHistory.css'
+import '../style/OrderHistory.css' 
 
 const OrderHistory = ({history, testhistoryp}) => {
     const orderHistorylist  = testhistoryp.products.map(item => {
@@ -20,7 +20,6 @@ const OrderHistory = ({history, testhistoryp}) => {
                 </div>
                 <div className='OrderAmount'>
                     <h3>{item.amount}</h3>
-                    <p>See more ...</p>
                 </div>
             </div>
         )

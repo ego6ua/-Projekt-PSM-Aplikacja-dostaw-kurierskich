@@ -1,27 +1,29 @@
 #containerOn {
-    margin-block: 25px;
+    margin-block: 20px;
 }
 
 #ongoindRow {
     box-shadow: 1px 1px 2px 2px #999999;
-    border-radius: 10px;
-    padding-block: 10px;
-    padding-inline: 20px;
+    border-radius: 1px;
+    padding-block: 5px;
+    padding-inline: 10px;
 }
 
 #OngoingLinks { 
-    margin-top: 30px;
+    margin-top: 15px;
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 #edit {
     background-color: #DADADA;
     color: black;
     padding: 7px;
-    margin: 12px 0;
+    margin: 16px 0;
     box-shadow: 0 1px 6px #ccc;
     border-radius: 10px;
+    
+    text-decoration: none;
 }
 
 #confirm {
@@ -30,7 +32,25 @@
     background-color: #F6E71D;
     color: black;
     padding: 7px;
-    margin: 12px 0;
+    margin: 16px 0;
     box-shadow: 0 1px 6px #ccc;
     border-radius: 10px;
+    
+    text-decoration: none;
+}
+
+.TitleOngoing{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.ProductsOngoing {
+    margin-inline: 10px;
+}
+.SumaOngoingOrder{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: end;
+    padding-block: 5px;
+    padding-inline-end: 10px;
 }

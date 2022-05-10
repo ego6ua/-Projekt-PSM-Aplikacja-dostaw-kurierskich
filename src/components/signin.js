@@ -2,8 +2,10 @@ import React, { useRef } from "react";
 import { useUserContext } from "../context/useContext";
 import UIfx from 'uifx'; 
 import logins from '../soundeffects/login.mp3'
+import '../App.css'
 
 const loginsound = new UIfx({asset: logins});
+
 
 const Signin = () => {
   const emailRef = useRef();
@@ -27,11 +29,11 @@ const Signin = () => {
 
   return (
     <div className="form">
-      <h2> Login </h2>
+      <div className="Chizaapp"> <label className="colorChiza">ChiZa.</label>app </div>
       <form onSubmit={onSubmit}>
         <input placeholder="Email" type="email" ref={emailRef} />
         <input placeholder="Password" type="password" ref={psdRef} />
-        <button type="submit" id='loginb' onClick={loginsound.play}>Sign In</button>
+        <button type="submit" id='loginb' onClick={loginsound.play}>Login</button>
         
         <p onClick={forgotPasswordHandler}>Forgot Password?</p>
       </form>
